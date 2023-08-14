@@ -22,9 +22,7 @@ const Tabs = () => {
         },
     ]
 
-    if (!genre || !tabs.some(tb => tb.url === genre)) {
-        genre = "popular";
-    }
+
 
     const [loading, setLoading] = useState(false);
 
